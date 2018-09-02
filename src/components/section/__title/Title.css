@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Exo2.0", sans-serif;
+    src: url(../../../fonts/Exo2.0-Thin.otf) format("opentype");
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    color: white;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: "Exo2.0", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+@media (min-width:760px) {
+    h1 {
+        font-size: 36px;
+    }
+    .section__title{
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:1020px) {
+    h1 {
+        font-size: 40px;
+    }
+    .section__title{
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+}

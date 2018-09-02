@@ -1,0 +1,48 @@
+.item__description {
+    font-size: 12px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.143;
+    text-align: left;
+    position: absolute;
+    left: 35px;
+    top: 120px;
+    z-index: 55;
+}
+.item__description_disabled {
+    color: rgba(179, 179, 179, 0.502);
+    font-size: 12px;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: 1.143;
+    text-align: left;
+    position: absolute;
+    left: 35px;
+    top: 120px;
+    z-index: 55;
+}
+
+@media (min-width:760px){
+    .item__description{
+        font-size: 14px;
+        left: 45px;
+        top: 135px;
+    }
+    .item__description_disabled{
+        font-size: 14px;
+        left: 45px;
+        top: 135px;
+    }
+}
+@media (min-width:1020px){
+    .item__description{
+        font-size: 15px;
+        left: 55px;
+        top: 145px;
+    }
+    .item__description_disabled{
+        font-size: 15px;
+        left: 55px;
+        top: 145px;
+    }
+}
+

@@ -1,0 +1,55 @@
+.item__title_default {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    top: 18px;
+    left: 35px;
+    color: #666666;
+    position: absolute;
+}
+.item__title_selected-hover {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    top: 18px;
+    left: 35px;
+    color: #E62E7A;
+    position: absolute;
+}
+.item__title_disabled {
+    color: rgba(179, 179, 179, 0.502);
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    top: 18px;
+    left: 35px;
+    position: absolute;
+}
+
+@media (min-width:760px) {
+    .item__title_default{
+        font-size: 16px;
+        left: 45px;
+    }
+    .item__title_selected-hover{
+        font-size: 16px;
+        left: 45px;
+    }
+    .item__title_disabled{
+        font-size: 16px;
+        left: 45px;
+    }
+}
+@media (min-width:1020px){
+    .item__title_default{
+        left: 55px;
+    }
+    .item__title_selected-hover{
+        left: 55px;
+    }
+    .item__title_disabled{
+        left: 55px;
+    }
+}
+
+
