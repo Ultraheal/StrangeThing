@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Exo2.0", sans-serif;
+    font-family: "Exo2.0-Thin";
     src: url(../../../fonts/Exo2.0-Thin.otf) format("opentype");
 }
 
@@ -15,7 +15,7 @@
 
 h1{
     font-size: 20px;
-    font-family: "Exo2.0", sans-serif;
+    font-family: "Exo2.0-Thin";
     font-weight: 500;
     color: #ffffff;
     line-height: 1.5;

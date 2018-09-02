@@ -1,6 +1,6 @@
 .item__description {
     font-size: 12px;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Trebuchet MS";
     color: rgb(102, 102, 102);
     line-height: 1.143;
     text-align: left;
@@ -12,7 +12,7 @@
 .item__description_disabled {
     color: rgba(179, 179, 179, 0.502);
     font-size: 12px;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Trebuchet MS";
     line-height: 1.143;
     text-align: left;
     position: absolute;

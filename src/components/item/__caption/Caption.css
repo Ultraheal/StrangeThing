@@ -17,14 +17,14 @@
 }
 .item__caption-text{
     font-size: 13px;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Trebuchet MS;
     color: #ffffff;
     line-height: 1.231;
     text-align: center;
 }
 .item__caption-text_disabled{
     font-size: 13px;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Trebuchet MS;
     color: #FFFF66;
     line-height: 1.231;
     text-align: center;
